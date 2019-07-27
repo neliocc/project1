@@ -1,1 +1,34 @@
-Test in my other branch with something new added
+<html>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <head>
+        <script>
+        $(document).ready(function(){
+            var secondFunction=function(text)
+            {
+                console.log($(this).text())
+            }
+            var myFunction=function(callback)
+            {
+                $(this)
+                return 3
+            };
+            $("#myButton").on("click",myFunction)
+        })
+
+        $(document).on("click",".gif div img",function(){
+            $(this)
+        })
+        
+        alert("something goes here");        </script>
+    </head>
+
+    <body>
+        <input id="myInput">
+        <button id="myButton">
+            Click me
+        </button>
+        <button id="secondButton">
+            Click me too
+        </button>
+    </body>
+</html>
